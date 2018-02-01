@@ -42,7 +42,8 @@ let Spotify = {
                 name:SpotifyTrack.name,
                 artist: SpotifyTrack.artists[0].name,
                 album : SpotifyTrack.album.name,
-                uri : SpotifyTrack.uri
+                uri : SpotifyTrack.uri,
+                preview_url : SpotifyTrack.preview_url
             };
             console.log(track);
             return track;

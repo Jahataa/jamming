@@ -32,7 +32,7 @@ class App extends Component {
                 //     uri: 'aasd'
                 // }
             ],
-            playlistName: '',
+            playlistName: 'Name your playlist',
             playlistTracks:[],
             term: ''
         };

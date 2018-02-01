@@ -1,6 +1,6 @@
 const CLIENT_ID  = '43e0874784ce4176b49925a233baf98c';
-// const REDIRECT_URI = 'http%3A%2F%2Flocalhost%3A3000%2F';
-const REDIRECT_URI = encodeURIComponent('http://jahatajammming.surge.sh');
+const REDIRECT_URI = 'http%3A%2F%2Flocalhost%3A3000%2F';
+// const REDIRECT_URI = encodeURIComponent('http://jahatajammming.surge.sh');
 const scope = 'playlist-modify-public';
 let accessToken = null;
 
